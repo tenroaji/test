@@ -1,6 +1,7 @@
 <form method="post" action="#">
 <input type="number" name="isi" />
 <input type="submit" name="submit" value="proses" />
+</form>
 <?php 
 if (isset($_POST['submit'])){
 $a = $_POST['isi'];
